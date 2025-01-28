@@ -1,83 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Minhas Férias</title>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="style.css">
     <title>Minhas Férias</title>
     
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f0f8;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #caa9f5;
-            padding: 20px;
-            text-align: center;
-            color: white;
-        }
-        header h1 {
-            margin: 0;
-        }
-        nav {
-            background-color: #edbadc;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 20px;
-            margin: 10px;
-        }
-        section img {
-            width: 100%;
-            max-width: 600px;
-            display: block;
-            margin: 20px auto;
-        }
-        footer {
-            background-color: #ff66b2;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
 </head>
 <body>
-    
     <header>
         <h1>Minhas Férias!</h1>
     </header>
     <nav>
-        <a href="#viagem">Viagem</a>
-        <a href="#aventura">Aventura</a>
+        <a href="#restaurante">Restaurante</a>
+        <a href="#parque">Parque</a>
+        <a href="#piscina">Piscina</a>
+        <a href="#leitura">Leitura</a>
     </nav>
     
     <section>
-        <article>
+        <article id="restaurante">
             <h2>Sai para comer fora com a minha família</h2>
-            <p>Durante as férias eu a minha família fomos ao restaurante Outback e comemos <br> muitas comidas deliciosas e sobremesas maravilhosas,<br> foi um ótimo tempo de qualidade onde eu consegui aproveitar muito.</p>
+            <p>Durante as férias eu a minha família fomos ao restaurante Outback e comemos <br> muitas comidas deliciosas e sobremesas maravilhosas, foi um ótimo tempo de<br> qualidade onde eu consegui aproveitar muito com a minha família.</p>
+        </article>
+        <div class="out">
+        <img src="img/outback.png" alt="">
+        </div>
+
+        <article id="parque">
+            <h2>Parque, bicicleta e descanso</h2>
+            <p>Novamente eu e minha família fomos ao Parque do Carmo, que é um parque com uma <br>imensa reserva de Mata Atlântica, além de uma vasta fauna e flora. Interior do parque,<br> é um dos parque mais famosos da cidade, e recebe mais de 400 mil visitas mensais</p>
+        </article>
+        <div class="parque">
+        <img src="img/parque.png" alt="">
+        </div>
+
+        <article id="piscina">
+            <h2>Piscina</h2>
+            <p>Nas férias é sempre bom nos refrescar com piscinas e praias, eu e minha irmã <br>nadamos na psicina e pegamos um sol durante as férias.</p>
+            <div class="piscina">
+                <img src="img/piscina.png" alt="">
+            </div>
         </article>
 
-        <article>
-            <h2>Parque, bicicleta e descanso</h2>
-            <p>Novamente eu e minha família fomos ao Parque do Carmo, que é um parque com uma imensa <br>reserva de Mata Atlântica, além de uma vasta fauna e flora. Interior do parque,<br> é um dos parque mais famosos da cidade, e recebe mais de 400 mil visitas mensais</p>
+        <article id="leitura">
+            <h2>Ler e explorar novos mundos</h2>
+            <p>Uma ótima atividade para exercitar a mente é a leitura, durante as férias eu consegui bater <br> minha meta de leitura, lendo 3 livros, foi ótimo pois consegui trocar o uso do dispositivo celular <br> para algo que realmentea faz bem.</p>
+            <div class="livros">
+                <img src="img/livros.png" alt="">
+            </div>
+
         </article>
     </section>
+    
+    <aside>
+        <h3>Atividades para realizar nas férias</h3>
+        <p>Além das atividades típicas, você também pode aproveitar essas:</p>
+        <ul>
+            <li> <strong>Brinque de fazer roupas:</strong>Uma sugestão é brincar de fazer tie-dye (camisetas hippies cheias de cores). Para isso, basta comprar tintas para tecido e seguir as instruções.</li>
+            <br>
+            <li><strong>Aprenda origami:</strong> Para dias chuvosos, que tal aprender a fazer origamis? Existem muitos tutoriais na internet que podem ajudar.</li>
+            <br>
+            <li><strong>Monte peças teatrais:</strong>Que tal montar uma releitura de uma peça que vocês assistiram juntos?Ou quem sabe criar uma história nova?</li>
+            <br>
+            <li><strong> Faça uma noite do cinema (com direito a pipoca):</strong>Todo mudo já fez uma “noite do cinema”. Aproveite as férias para caprichar nessa atividade.
+            Se ainda não tiver, compre embalagens de pipoca iguais aquelas das salas de cinema e crie o ambiente dentro de casa.</li>
+            <br>
+            <li><strong>Faça um picnic:</strong>As férias são uma excelente oportunidade de juntar os amigos da escola para uma atividade conjunta diferente.</li>
+        </ul>
+
+    </aside>
+
+
+
+    <footer class="footer">
+        <p>&copy;2025 Minhas Férias. Todos os direitos reservados.</p>
+    </footer>
+    </body>
+    </html>
      
 
   

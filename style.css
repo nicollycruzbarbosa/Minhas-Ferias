@@ -1,0 +1,89 @@
+
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: #ece1f5;
+            color: #3b2f36;
+            margin: 0;
+            padding: 0;
+            font-size: larger;
+        }
+        header {
+            background-color: #f6c2f0;
+            padding: 20px;
+            text-align: center;
+            color: rgb(11, 11, 145);
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #e68bc7;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+        section img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+        }
+        footer {
+            background-color: #ff66b2;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            margin-top: 1500px;
+            width: 100%;
+            bottom: 0;
+        }
+        .out img{
+        display: flex;
+        margin-left: -10px;
+        border-radius: 8px;
+        width: 1000px;
+        height: auto;
+        
+        }
+        .parque img{
+            display: flex;
+            margin-left: -10px;
+            border-radius: 8px;
+            width: 1000px;
+            height: auto;
+        }
+
+        .piscina img{
+            display: flex;
+            margin-left:-10px ;
+            border-radius: 8px;
+        }
+
+        aside {
+            /* flex: 1; */
+            margin-top: -2100px;
+            margin-left: 850px;
+            background-color: #e68bc7;
+            padding: 1.5em;
+            border-radius: 9px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+       
+        }
+
+        .livros img {
+            display: flex;
+            margin-left: -10px;
+            border-radius: 9px;
+        }
